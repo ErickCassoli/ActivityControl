@@ -1,3 +1,5 @@
+sqlite3
+
 # Arquivos temporários ou de sistema
 .DS_Store
 Thumbs.db
