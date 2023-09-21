@@ -10,8 +10,15 @@ Tarefa Realizada por: Erick Moreira Cassoli de Souza
 
 Execute o arquivo Setup.bat atraves do terminal usando:
 ```
-.\Setup.bat
+.\Setup.ps1
 ```
+Caso de algum erro use primeiro esse comando:
+```
+Set-ExecutionPolicy Bypass -Scope Process
+```
+
+e execute o Setup.ps1 novamente.
+
 Ele criara a .env e intalara os requirements automaticamente.
 
 Caso ele não execute os comandos vc pode tentar fazer isso manualmente utilizando 
