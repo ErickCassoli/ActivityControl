@@ -45,10 +45,6 @@ python manage.py runserver
 GET /api/alunos/
 ```
 
-| Parâmetro | Tipo   | Descrição                    |
-| --------- | ------ | ---------------------------- |
-| `api_key` | `string` | |
-
 ### Retorna um aluno específico
 
 ```http
@@ -105,10 +101,6 @@ GET /api/alunos/${id}/tarefas/
 GET /api/disciplinas/
 ```
 
-| Parâmetro | Tipo   | Descrição                    |
-| --------- | ------ | ---------------------------- |
-| `api_key` | `string` | |
-
 ### Retorna uma disciplina específica
 
 ```http
@@ -154,10 +146,6 @@ DELETE /api/disciplinas/${id}/
 ```http
 GET /api/tarefas/
 ```
-
-| Parâmetro | Tipo   | Descrição                    |
-| --------- | ------ | ---------------------------- |
-| `api_key` | `string` ||
 
 ### Retorna uma tarefa específica
 
