@@ -1,0 +1,32 @@
+# Arquivos temporários ou de sistema
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos de cache
+logs/
+cache/
+
+# Arquivos de ambiente
+.env
+.env/
+.venv/
+.venv
+
+# Dependências e diretórios de saída
+node_modules/
+dist/
+vendor/
+
+# Arquivos de configuração pessoal
+.idea/
+.vscode/
+
+# Arquivos de compilação
+*.log
+*.bak
+*.swp
+
+# Arquivos de build
+build/
+
+# Dependendo do seu ambiente de desenvolvimento, você pode adicionar mais regras aqui.
