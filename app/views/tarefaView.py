@@ -68,7 +68,7 @@ class DetailTarefaView(APIView):
         try:
             tarefa = self.get_object(pk, Tarefa)
             tarefa.delete()
-            return Response(status=status.HTTP_204_NO_CONTENT)
+            return Response({'status': 'Tarefa deletada'},status=status.HTTP_204_NO_CONTENT)
         except Http404:
             return Response({'error': 'Tarefa não encontrada'}, status=status.HTTP_404_NOT_FOUND)
         except Exception as e:

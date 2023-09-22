@@ -14,7 +14,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nome\":\"erick\",\r\n    \"email\":\"erick.mcassoli@gmail.com\"\r\n}",
+					"raw": "{\r\n    \"nome\":\"Erick\",\r\n    \"email\":\"Erick.mcassoli@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -82,7 +82,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/alunos/3",
+					"raw": "http://127.0.0.1:8000/api/alunos/1",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -94,7 +94,7 @@
 					"path": [
 						"api",
 						"alunos",
-						"3"
+						"1"
 					]
 				}
 			},
@@ -132,7 +132,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nome\":\"e22ck11\",\r\n    \"email\":\"eck.mcsoli@gmail.com\"\r\n}",
+					"raw": "{\r\n    \"nome\":\"Erick\",\r\n    \"email\":\"erick.mcassoli@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -140,7 +140,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/alunos/3/",
+					"raw": "http://127.0.0.1:8000/api/alunos/1/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -152,7 +152,7 @@
 					"path": [
 						"api",
 						"alunos",
-						"3",
+						"1",
 						""
 					]
 				}
@@ -174,7 +174,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/alunos/3/",
+					"raw": "http://127.0.0.1:8000/api/alunos/1/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -186,7 +186,7 @@
 					"path": [
 						"api",
 						"alunos",
-						"3",
+						"1",
 						""
 					]
 				}

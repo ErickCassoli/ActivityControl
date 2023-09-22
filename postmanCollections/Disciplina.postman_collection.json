@@ -14,7 +14,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nome\": \"Matemática\",\r\n    \"descricao\": \"Estudo de matemática avançada\"\r\n}\r\n",
+					"raw": "{\r\n    \"nome\": \"Matemática\",\r\n    \"descricao\": \"Estudos de matemática avançada\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -119,7 +119,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nome\": \"Matema\",\r\n    \"descricao\": \"Estu matemáticvançada\"\r\n}",
+					"raw": "{\r\n    \"nome\": \"Matematica 2\",\r\n    \"descricao\": \"Estudo de matemática avançada\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -127,7 +127,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/disciplinas/2/",
+					"raw": "http://127.0.0.1:8000/api/disciplinas/1/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -139,7 +139,7 @@
 					"path": [
 						"api",
 						"disciplinas",
-						"2",
+						"1",
 						""
 					]
 				}
@@ -161,7 +161,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/disciplinas/2/",
+					"raw": "http://127.0.0.1:8000/api/disciplinas/1/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -173,7 +173,7 @@
 					"path": [
 						"api",
 						"disciplinas",
-						"2",
+						"1",
 						""
 					]
 				}

@@ -68,7 +68,7 @@ class DetailDisciplinaView(APIView):
         try:
             disciplina = self.get_object(pk, Disciplina)
             disciplina.delete()
-            return Response(status=status.HTTP_204_NO_CONTENT)
+            return Response({'status': 'Disciplina deletada'},status=status.HTTP_204_NO_CONTENT)
         except Http404:
             return Response({'error': 'Disciplina não encontrada'}, status=status.HTTP_404_NOT_FOUND)
         except Exception as e:

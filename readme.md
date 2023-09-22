@@ -1,9 +1,7 @@
 
 # ActivityControl API
 
-Api para controle de atividades atraves de alunos.
-
-&nbsp;
+Api para controle de atividades atraves de alunos, sendo ela realizando CRUD para as 3 entidades disponiveis atraves de endpoints.
 
 Tarefa Realizada por: Erick Moreira Cassoli de Souza
 ## Setup
@@ -33,15 +31,19 @@ pip install -r requirements.txt
 Para iniciar a api utilize:
 
 ```
+python manage.py makemigrations
+python manage.py migrate
 python manage.py runserver
 ```
-
+após isso você pode fazer requisições atraves do postman ou da url em questão
+a url padrão da api é localhost ou ```http://127.0.0.1:8000/```
 
 ## Funcionalidades
 
 - Criar, Listar, Atualizar, Deletar Alunos
 - Criar, Listar, Atualizar, Deletar Disciplinas
 - Criar, Listar, Atualizar, Deletar Tarefas
+- Listar Tarefas por Aluno
 
 
 ## Documentação da API
