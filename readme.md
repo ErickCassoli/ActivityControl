@@ -4,6 +4,21 @@
 Api para controle de atividades atraves de alunos, sendo ela realizando CRUD para as 3 entidades disponiveis atraves de endpoints.
 
 Tarefa Realizada por: Erick Moreira Cassoli de Souza
+## Indice
+
+- [Funcionalidades](#funcionalidades)
+- [Setup](#setup)
+- [Uso](#uso)
+- [Documentação da API](#documentação-da-api)
+
+## Funcionalidades
+
+- Criar, Listar, Atualizar, Deletar Alunos
+- Criar, Listar, Atualizar, Deletar Disciplinas
+- Criar, Listar, Atualizar, Deletar Tarefas
+- Listar Tarefas por Aluno
+
+
 ## Setup
 
 Execute o arquivo Setup.bat atraves do terminal usando:
@@ -38,15 +53,9 @@ python manage.py migrate
 python manage.py runserver
 ```
 após isso você pode fazer requisições atraves do postman ou da url em questão
-a url padrão da api é localhost ou ```http://127.0.0.1:8000/```
+a url padrão da api é localhost ou ```http://127.0.0.1:8000/```.
 
-## Funcionalidades
-
-- Criar, Listar, Atualizar, Deletar Alunos
-- Criar, Listar, Atualizar, Deletar Disciplinas
-- Criar, Listar, Atualizar, Deletar Tarefas
-- Listar Tarefas por Aluno
-
+Apos isso voce pode importar as Colections da pasta "postmanCollections" para o seu proprio postman para testar.
 
 ## Documentação da API
 
