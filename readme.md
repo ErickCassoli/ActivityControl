@@ -32,7 +32,9 @@ Para iniciar a api utilize:
 
 ```
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py runserver
 ```
 após isso você pode fazer requisições atraves do postman ou da url em questão
